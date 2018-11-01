@@ -1,0 +1,149 @@
+body,
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-background {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background-color: #211b15;
+}
+
+.header-logo {
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo-subtitle {
+  color: #fbfbfb;
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+  line-height: 24px;
+}
+
+.header-logo-title {
+  color: #fbfbfb;
+  font-family: Georgia;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 1.8px;
+  line-height: 36px;
+}
+
+.header-information {
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  text-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  color: #fbfbfb;
+  font-family: Georgia;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 24px;
+  /* Text style for "Воздушные" */
+  letter-spacing: 3px;
+}
+
+.balls {
+  width: 52%;
+  height: 600px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.balls>img{
+  width: 52%;
+  height: 600px;
+}
+.section-main-text{
+  position:absolute;
+}
+.balls::after{
+  background: rgba(4, 4, 4, 0.6);
+}
+.balls:hover .section-main-text{
+  display:none;
+  transition: 0.3;
+}
+.balls-img{
+  width: 40px;
+height: 40px;
+background: url(../img/instagram-logo.png);
+}
+.caption{
+  display:flex;
+  text-align:center;
+  justify-content: center;
+}
+.text{
+  margin:auto 0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+}
+.flowers {
+  background: url(../img/flowers.jpg) center center no-repeat;
+  width: 48%;
+  height: 600px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sweets {
+  background: url(../img/sweets.jpg) center center no-repeat;
+  width: 44%;
+  height: 719px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.block{
+  width: 56%;
+  height: 719px;
+  display:flex;
+  flex-direction:column;
+}
+.gifts {
+  background: url(../img/gifts.jpg) center center no-repeat;
+  width: 100%;
+  height: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animators {
+  background: url(../img/animators.jpg) center center no-repeat;
+  width: 100%;
+  height: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
