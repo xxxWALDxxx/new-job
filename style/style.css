@@ -79,6 +79,7 @@ section {
   align-items: center;
   flex-direction:column;
   position: relative;
+  overflow:hidden;  
 }
 .balls-img{
   background: url(../img/instagram-logo.png)no-repeat;
@@ -96,13 +97,21 @@ section {
   background-color: rgba(0,0,0,0.5);  
   z-index: 1;
   opacity: 0;
+  
+  transition: all 1s ease;
 }
 .balls:hover:before{opacity:1;}
 .text12{
   display:none;
+  transition-duration: .2s;
+}
+.balls:hover{
+  background-size: 130%;
+  transition-duration: .2s;
 }
 .section-main-text,.text12,.balls-img,.balls-text{
   z-index: 2;
+  transition-duration: .2s;
 }
 .balls-text{
   text-shadow: 0 0 65px rgba(0, 0, 0, 0.1);
@@ -119,15 +128,36 @@ section {
   justify-content: center;
   align-items: center;
 }
+.jojo{
+  width: 48%;
+  height: 600px;
+  overflow: hidden; 
+}
 .flowers {
   background: url(../img/flowers.jpg) center center no-repeat;
-  width: 48%;
+  width: 100%;
   height: 600px;
   display:flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  
+  
+  transition: all 1s ease;
 }
-
+.pepd{
+  opacity: 0;
+  font-size:30px;
+  transition: all 1s ease;
+}
+.flowers:hover{
+  transform: scale(1.3);
+}
+.flowers:hover .pepd{
+  opacity: 1;
+}
 .sweets {
   background: url(../img/sweets.jpg) center center no-repeat;
   width: 44%;
