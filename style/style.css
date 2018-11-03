@@ -197,6 +197,9 @@ section {
   position: relative;
   overflow: hidden;
 }
+.sweets .section-main-text{
+  padding-top: 50%;
+}
 .sweets:before{
   content: '';
   position: absolute;
@@ -230,6 +233,9 @@ section {
   height: 719px;
   display:flex;
   flex-direction:column;
+}
+.gifts .section-main-text,.animators .section-main-text{
+  padding-top: 20%;
 }
 .gifts {
   width: 100%;
