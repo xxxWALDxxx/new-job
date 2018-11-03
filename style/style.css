@@ -212,6 +212,15 @@ section {
   opacity: 0;
   transition: all 1s ease;
 }
+.sweets .section-main-text{
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+}
+.center{
+  display:flex;
+  justify-content: center;
+}
 .sweets:hover:before{
   opacity:1;
 }
